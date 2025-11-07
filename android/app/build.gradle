@@ -56,7 +56,7 @@ kotlinOptions {
 
 defaultConfig {
     applicationId = "com.maybolenterprises.co.recreapp"
-    minSdkVersion flutter.minSdkVersion
+    minSdkVersion 23
     targetSdk = 35
     versionCode = flutterVersionCode.toInteger()
     versionName = flutterVersionName

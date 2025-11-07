@@ -31,7 +31,7 @@ class ProfilePage extends StatelessWidget {
 
           // Datos del documento
           Map<String, dynamic> data =
-          snapshot.data!.data() as Map<String, dynamic>;
+              snapshot.data!.data() as Map<String, dynamic>;
 
           String? apellido = data['apellido'];
           String? nombre = data['nombre'];
@@ -60,14 +60,14 @@ class ProfilePage extends StatelessWidget {
                     child: CircleAvatar(
                       radius: 60,
                       backgroundImage: (profileImageUrl != null &&
-                          profileImageUrl.isNotEmpty)
+                              profileImageUrl.isNotEmpty)
                           ? NetworkImage(profileImageUrl)
                           : null,
-                      child: (profileImageUrl == null ||
-                          profileImageUrl.isEmpty)
-                          ? const Icon(Icons.person,
-                          size: 60, color: Colors.grey)
-                          : null,
+                      child:
+                          (profileImageUrl == null || profileImageUrl.isEmpty)
+                              ? const Icon(Icons.person,
+                                  size: 60, color: Colors.grey)
+                              : null,
                     ),
                   ),
                   const SizedBox(height: 10),

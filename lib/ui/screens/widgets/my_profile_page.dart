@@ -111,7 +111,7 @@ class _MyProfilePageState extends State<MyProfilePage> {
 
     FirebaseStorage storage = FirebaseStorage.instance;
     Reference ref =
-    storage.ref().child('usuarios').child('${user.uid}_profile.jpg');
+        storage.ref().child('usuarios').child('${user.uid}_profile.jpg');
 
     UploadTask uploadTask = ref.putFile(image);
     TaskSnapshot taskSnapshot = await uploadTask;
@@ -162,14 +162,14 @@ class _MyProfilePageState extends State<MyProfilePage> {
                       backgroundImage: _imageFile != null
                           ? FileImage(_imageFile!)
                           : (_profileImageUrl != null &&
-                          _profileImageUrl!.isNotEmpty)
-                          ? NetworkImage(_profileImageUrl!)
-                          : null,
+                                  _profileImageUrl!.isNotEmpty)
+                              ? NetworkImage(_profileImageUrl!)
+                              : null,
                       child: (_imageFile == null &&
-                          (_profileImageUrl == null ||
-                              _profileImageUrl!.isEmpty))
+                              (_profileImageUrl == null ||
+                                  _profileImageUrl!.isEmpty))
                           ? const Icon(Icons.person,
-                          size: 60, color: Colors.grey)
+                              size: 60, color: Colors.grey)
                           : null,
                     ),
                   ),
@@ -232,7 +232,7 @@ class _MyProfilePageState extends State<MyProfilePage> {
                     borderRadius: BorderRadius.circular(10),
                   ),
                   padding:
-                  const EdgeInsets.symmetric(horizontal: 10, vertical: 18),
+                      const EdgeInsets.symmetric(horizontal: 10, vertical: 18),
                   child: const Center(
                     child: Text(
                       'Guardar',
