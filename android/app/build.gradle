@@ -1,0 +1,81 @@
+plugins {
+id "com.android.application"
+// START: FlutterFire Configuration
+id 'com.google.gms.google-services'
+// END: FlutterFire Configuration
+id "org.jetbrains.kotlin.android"
+// The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
+id "dev.flutter.flutter-gradle-plugin"
+}
+
+
+
+
+def localProperties = new Properties()
+def localPropertiesFile = rootProject.file("local.properties")
+if (localPropertiesFile.exists()) {
+localPropertiesFile.withReader("UTF-8") { reader ->
+localProperties.load(reader)
+}
+}
+
+
+
+
+def flutterVersionCode = localProperties.getProperty("flutter.versionCode")
+if (flutterVersionCode == null) {
+flutterVersionCode = "1"
+}
+
+
+
+
+def flutterVersionName = localProperties.getProperty("flutter.versionName")
+if (flutterVersionName == null) {
+flutterVersionName = "1.0"
+}
+
+
+
+
+android {
+namespace = "com.maybolenterprises.co.recreapp"
+compileSdk = 35
+ndkVersion = flutter.ndkVersion
+
+compileOptions {
+    // ✅ Usa la misma versión de Java que tu entorno (17 o 21)
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+
+kotlinOptions {
+    // ✅ Kotlin compila con el mismo target JVM
+    jvmTarget = "17"
+}
+
+defaultConfig {
+    applicationId = "com.maybolenterprises.co.recreapp"
+    minSdkVersion flutter.minSdkVersion
+    targetSdk = 35
+    versionCode = flutterVersionCode.toInteger()
+    versionName = flutterVersionName
+}
+
+buildTypes {
+    release {
+        signingConfig = signingConfigs.debug
+    }
+}
+
+
+
+
+}
+
+
+
+
+flutter {
+source = "../.."
+}

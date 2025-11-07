@@ -1,0 +1,2 @@
+C:/Users/Acer/Downloads/recreapp/android/app/.cxx/Debug/a1z3v4j2/x86_64/CMakeFiles/edit_cache.dir
+C:/Users/Acer/Downloads/recreapp/android/app/.cxx/Debug/a1z3v4j2/x86_64/CMakeFiles/rebuild_cache.dir
