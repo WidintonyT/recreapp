@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:recreapp/constants.dart';
+import 'package:recreapp/welcome_page.dart';
 
 class BeneficiosPage extends StatelessWidget {
   const BeneficiosPage({Key? key}) : super(key: key);

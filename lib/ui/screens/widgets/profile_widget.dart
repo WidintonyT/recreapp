@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'package:recreapp/constants.dart';
+import 'package:recreapp/welcome_page.dart';
 
 class ProfileWidget extends StatelessWidget {
   final IconData icon;

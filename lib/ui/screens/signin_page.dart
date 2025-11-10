@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:shared_preferences/shared_preferences.dart'; // Importa el paquete shared_preferences
-import 'package:recreapp/constants.dart';
+import 'package:recreapp/welcome_page.dart';
 
 import 'package:page_transition/page_transition.dart';
 import 'package:recreapp/ui/screens/signup_page.dart';

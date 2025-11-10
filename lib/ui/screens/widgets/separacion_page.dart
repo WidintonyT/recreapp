@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:recreapp/constants.dart';
+import 'package:recreapp/welcome_page.dart';
 
 class SeparacionPage extends StatelessWidget {
   const SeparacionPage({Key? key}) : super(key: key);

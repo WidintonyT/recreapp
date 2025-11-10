@@ -2,7 +2,7 @@ import 'dart:math'; // Importa la librería Random
 
 import 'package:flutter/material.dart';
 
-import '../../../constants.dart';
+import '../../../welcome_page.dart';
 
 class MaterialesPage extends StatefulWidget {
   @override

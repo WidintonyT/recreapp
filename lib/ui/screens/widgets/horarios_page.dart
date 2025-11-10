@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-import '../../../constants.dart';
+import '../../../welcome_page.dart';
 
 class HorariosPage extends StatelessWidget {
   @override

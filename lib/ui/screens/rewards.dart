@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:recreapp/constants.dart';
+import 'package:recreapp/welcome_page.dart';
 
 class RewardsPage extends StatelessWidget {
   final GlobalKey<ScaffoldMessengerState> _scaffoldMessengerKey =

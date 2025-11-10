@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:recreapp/constants.dart'; // Asegúrate de importar Constants
+import 'package:recreapp/welcome_page.dart'; // Asegúrate de importar Constants
 
 class PuntosRecoleccionPage extends StatelessWidget {
   const PuntosRecoleccionPage({Key? key}) : super(key: key);

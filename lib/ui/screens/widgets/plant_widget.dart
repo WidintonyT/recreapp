@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:recreapp/constants.dart';
+import 'package:recreapp/welcome_page.dart';
 import 'package:page_transition/page_transition.dart';
 import 'package:recreapp/ui/screens/detail_page.dart';
 

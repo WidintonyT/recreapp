@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:recreapp/constants.dart'; // Asegúrate de importar Constants
+import 'package:recreapp/welcome_page.dart'; // Asegúrate de importar Constants
 import 'package:recreapp/ui/screens/widgets/beneficios_page.dart';
 import 'package:recreapp/ui/screens/widgets/horarios_page.dart';
 import 'package:recreapp/ui/screens/widgets/materiales_page.dart';

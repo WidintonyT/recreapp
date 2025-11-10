@@ -15,5 +15,5 @@ class Constants {
       "- Biblioteca de información y educación sobre reciclaje\n- Tutoriales de manualidades\n- Plataforma interactiva para compartir proyectos\n- Sistema de puntos y recompensas";
   static var titleThree = "Contacto y soporte";
   static var descriptionThree =
-      "Correo electrónico: maybolenterprises@gmail.com\nTeléfono: +57 3219238409\nDirección: Calle 3 #5-13";
+      "Correo electrónico: dominiovirtual3@gmail.com\nTeléfono: +57 3002617071\nDirección: Ipiales";
 }

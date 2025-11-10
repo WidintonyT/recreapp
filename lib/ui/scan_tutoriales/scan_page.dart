@@ -2,7 +2,7 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:recreapp/constants.dart';
+import 'package:recreapp/welcome_page.dart';
 import 'package:recreapp/ui/scan_tutoriales/edit_info.dart';
 import '../../service/firebase_service.dart';
 import 'editar_proyecto.dart';

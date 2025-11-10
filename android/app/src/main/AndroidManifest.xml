@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.maybolenterprises.co.recreapp"> <!-- Asegúrate de que esto coincida con tu google-services.json -->
     <application
-        android:label="recreapp"
+        android:label="ReCrea"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
